@@ -12,7 +12,7 @@ const data=[
     {
         id:3,
         question:"where r you going",
-        answer:"good bye caroline"
+        answer:"good bye caroline",
     },
 ]
 
