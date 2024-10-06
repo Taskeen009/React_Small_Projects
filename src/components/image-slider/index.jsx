@@ -60,7 +60,7 @@ const Slider = ({ url, Limit = 5, page = 1 }) => {
                         key={item.id}
                         alt={item.download_url}
                         src={item.download_url}
-                        className={currentSlide===index? :""}
+                        // className={currentSlide===index? :""}
                     />
                 }) : null
 
