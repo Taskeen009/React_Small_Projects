@@ -7,6 +7,7 @@ import ImageSlider from './components/image-slider'
 import LoadData from './components/load-more-button'
 import Tree from './components/tree-view'
 import menus from './components/tree-view/data';
+import Qrcode from './components/qr-code';
 function App() {
   return (
     <div className="App">
@@ -27,7 +28,11 @@ function App() {
 
 
       {/* TreeView */}
-      <Tree menus={menus}/>
+      {/* <Tree menus={menus}/> */}
+
+
+      {/* QRcode  */}
+      <Qrcode/>
     </div>
   );
 }

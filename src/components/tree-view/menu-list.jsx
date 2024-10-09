@@ -2,13 +2,13 @@
  
  const Menulist=({list=[]})=>{
    return (
-    <div classname="menu-list-container">
+    <ul classname="menu-list-container">
         {
             list && list.length ? list.map((listitem)=>{
              return <Menuitem item={listitem}/>
             }):null
         }
-    </div>
+    </ul>
    )
  }
  
